@@ -16,11 +16,12 @@ GIT
 
 GIT
   remote: https://github.com/firstdraft/web_git.git
-  revision: 4dbadc999d057f2bf0f9f74aec4deed79cf07350
+  revision: 93dca13ab07c35b3b318e35bb6e128fd884b430b
   branch: spring2020
   specs:
     web_git (0.1.0)
       actionview
+      ansispan
       diffy
       git
       sinatra
@@ -90,6 +91,7 @@ GEM
     annotate (3.1.1)
       activerecord (>= 3.2, < 7.0)
       rake (>= 10.4, < 14.0)
+    ansispan (0.0.1)
     bcrypt (3.1.16)
     bcrypt (3.1.16-java)
     better_errors (2.9.1)
